@@ -43,7 +43,27 @@ Drawing on the skills we gained from the Break Through Tech AI Program, our stra
 # Real world Importance
 The real-world significance of this problem lies in improving ADHD diagnosis, particularly for females, who are often underdiagnosed due to subtler symptoms. By leveraging fMRI data and socio-demographic factors, this model can help identify at-risk individuals early, leading to timely interventions and personalized treatments. Understanding sex-specific brain activity patterns associated with ADHD can contribute to more equitable and effective mental health care, reducing long-term challenges for undiagnosed individuals. This research also advances the broader field of neuroscience by shedding light on how neurodevelopmental disorders manifest differently across sexes, ultimately improving diagnostic tools and therapeutic strategies.
 
+# About the Data
+- **Source:** Provided by the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC) project, in collaboration with Ann S. Bowers Women’s Brain Health Initiative, Cornell University, and UC Santa Barbara.
+- **Objective:** Predict ADHD diagnosis (0=Other/None, 1=ADHD) and sex (0=Male, 1=Female) using functional MRI and socio-demographic data.
+- **Training Data (train_tsv) Includes:**
+  - ADHD diagnosis and sex labels.
+  - Functional MRI connectome matrices.
+  - Socio-demographic, emotional, and parenting information.
+- **Test Data (test_tsv) Includes:**
+  - Functional MRI connectome matrices.
+  - Socio-demographic, emotional, and parenting information (without labels).
+- **Preprocessing Required:**
+  - Handling categorical data (e.g., creating dummy variables).
+  - Merging processed socio-demographic and functional MRI data for model training.
+- **Data Characteristics:**
+  - Size: 1.07 GB
+  - Format: xlsx, csv
+  - Columns: 110
+  - Files: 13
+- **Submission Requirement:** Predict ADHD diagnosis and sex for the test set and submit results for leaderboard ranking.
 
-##Jolie:
+
+## Jolie:
 
 
