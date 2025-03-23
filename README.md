@@ -1,15 +1,15 @@
-###WiDS Datathon 2025: AI for Female Brain Health
+### WiDS Datathon 2025: AI for Female Brain Health
 
-##Project Overview:
--Describe the Kaggle competition and its connection to the Break Through Tech AI Program
--Describe the objective of the challenge
--Explain the real-world significance of the problem and the potential impact of your work
+## Project Overview:
+- Describe the Kaggle competition and its connection to the Break Through Tech AI Program
+- Describe the objective of the challenge
+- Explain the real-world significance of the problem and the potential impact of your work
 
 
-##Data Exploration:
--Describe the dataset(s) used (i.e., the data provided in Kaggle + any additional sources)
--Describe your data exploration and preprocessing approaches
--Include at least 2-3 visualizations from your Exploratory Data Analysis
+## Data Exploration:
+- Describe the dataset(s) used (i.e., the data provided in Kaggle + any additional sources)
+- Describe your data exploration and preprocessing approaches
+- Include at least 2-3 visualizations from your Exploratory Data Analysis
 
 
 ##My:
