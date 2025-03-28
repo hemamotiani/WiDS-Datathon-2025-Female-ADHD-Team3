@@ -45,7 +45,7 @@ The real-world significance of this problem lies in improving ADHD diagnosis, pa
   - Format: xlsx, csv
   - Columns: 110
   - Files: 13
-- **Submission Requirement:** Predict ADHD diagnosis and sex for the test set and submit results for leaderboard ranking.
+- **Submission Requirement:** Predict ADHD diagnosis and sex for the test set and submit results for leaderboard ranking. 
 
 #### Data Exploration and Preprocessing Approaches
 - **Handling Missing Values:** Dropped columns with a significant percentage of missing values to maintain data quality and prevent model bias.
