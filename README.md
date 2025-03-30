@@ -57,9 +57,9 @@
       jupyter notebook
       ```
    2. _Run the notebook or Python scripts:_ Open the notebook (.ipynb) or Python scripts in Jupyter and run them in sequence. If you're using a Python script directly, you can run it from the command line like this:
-     ```bash
-     python model.py
-     ```
+      ```bash
+      python model.py
+      ```
 
 ---
 
