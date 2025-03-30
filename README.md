@@ -19,7 +19,7 @@
 **Example:**
 
 * Built a _multi-classifier model_ using _Random Forest Classifier_ with the goal of _developing predictive models using brain imaging data to diagnose adolescent ADHD, aiming to shed light on how brain development differs between males and females._
-* Achieved an F1 score of _0.69_ and a ranking of __ on the final Kaggle Leaderboard
+* Achieved an F1 score of _0.69_ and a ranking of _#519_ on the final Kaggle Leaderboard
 * Applied _data preprocessing techniques_ such as handling missing values, feature scaling, encoding categorical variables, and feature selection to optimize performance.
 * Utilized _NumPy and Pandas_ for efficient data manipulation and analysis.
 
