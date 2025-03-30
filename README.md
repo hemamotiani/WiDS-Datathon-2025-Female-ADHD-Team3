@@ -48,8 +48,7 @@
      ```
 
 
-* The Datasets: Place the sample datasets in the `/datasets` folder. Example files:
-   - `Crash_data_LA_county.csv`
+* The Datasets: The datasets used are in the `/Datasets` folder. 
 
 * How to run the notebook or scripts:
    1. _Open Jupyter Notebook:_ Launch Jupyter Notebook in the cloned project directory by running the following command:
@@ -117,7 +116,9 @@ As participants in the Break Through Tech AI Program, our team is leveraging thi
 
 **Visualizations:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+* <img width="380" alt="Screenshot 2025-03-30 at 7 50 46 PM" src="https://github.com/user-attachments/assets/3c677990-c9eb-49e0-b451-96c19138d1e4" />
+* <img width="690" alt="Screenshot 2025-03-30 at 7 49 55 PM" src="https://github.com/user-attachments/assets/96244cee-01c4-4691-afac-e1c59534aac3" />
+* <img width="689" alt="Screenshot 2025-03-30 at 7 51 48 PM" src="https://github.com/user-attachments/assets/43fcd359-8e1c-4f33-a6e4-56b577f009a6" />
 
 ---
 
