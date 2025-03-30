@@ -1,4 +1,4 @@
-# Welcome to our GitHub repository for the WiDS Datathon 2025! Our team, placed together by the Break Through Tech AI Program, is participating in this global Kaggle competition to apply data science and machine learning techniques to real-world challenges in female brain health.
+#### Welcome to our GitHub repository for the WiDS Datathon 2025! Our team, placed together by the Break Through Tech AI Program, is participating in this global Kaggle competition to apply data science and machine learning techniques to real-world challenges in female brain health.
 
 ---
 
@@ -26,15 +26,39 @@
 
 ## **👩🏽‍💻 Setup & Execution**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+* Prerequisites: 
+- Python 3.8+
 
-* 1. Clone the Repository:
-- First, you need to clone the repository to your local machine. Use the following command: `git clone https://github.com/COMPSCI-383-Spring2025/assignment-2-search-complete-bhavya6032.git`
-- This will create a folder with the repository’s files on your local machine.
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+* Clone the Repository:
+  - First, you need to clone the repository to your local machine. Use the following command:
+    ```bash
+    git clone https://github.com/COMPSCI-383-Spring2025/assignment-2-search-complete-bhavya6032.git
+    ```
+  - This will create a folder with the repository’s files on your local machine.
+
+* Install dependencies:
+   - Install Python: https://kinsta.com/knowledgebase/install-python/
+   - Install pip: https://pip.pypa.io/en/stable/installation/
+   - Install the following - 
+     ``` bash
+     pip install pandas numpy matplotlib seaborn joblib scikit-learn xgboost
+     ```
+
+
+* The Datasets:
+Place the sample datasets in the `/datasets` folder. Example files:
+- `Crash_data_LA_county.csv`
+- `Harsh_Acceleration_Severity_Ranking.csv`
+
+* How to run the notebook or scripts:
+   1. _Open Jupyter Notebook:_ Launch Jupyter Notebook in the cloned project directory by running the following command:
+      ```bash
+      jupyter notebook
+      ```
+  2. _Run the notebook or Python scripts:_ Open the notebook (.ipynb) or Python scripts in Jupyter and run them in sequence. If you're using a Python script directly, you can run it from the command line like this:
+     ```bash
+     python model.py
+     ```
 
 ---
 
@@ -140,11 +164,4 @@ As participants in the Break Through Tech AI Program, our team is leveraging thi
 
 ---
 
-#### Our Approach
-Drawing on the skills we gained from the Break Through Tech AI Program, our strategy includes:
-- Exploratory data analysis and preprocessing using pandas and NumPy
-- Model development and evaluation with scikit-learn
-- Application of deep learning techniques and hyperparameter tuning for improved performance
-- Collaborative teamwork using GitHub, Kaggle Notebooks, Notion, and Google Collaboration
-
-
+For any questions or contributions, please reach out to the project maintainers or open an issue in this repository.
