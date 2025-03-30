@@ -32,7 +32,7 @@
 * Clone the Repository:
   - First, you need to clone the repository to your local machine. Use the following command:
     ```bash
-    git clone https://github.com/COMPSCI-383-Spring2025/assignment-2-search-complete-bhavya6032.git
+    git clone https://github.com/hemamotiani/WiDS-Datathon-2025-Female-ADHD-Team3.git
     ```
   - This will create a folder with the repository’s files on your local machine.
 
@@ -45,17 +45,15 @@
      ```
 
 
-* The Datasets:
-Place the sample datasets in the `/datasets` folder. Example files:
-- `Crash_data_LA_county.csv`
-- `Harsh_Acceleration_Severity_Ranking.csv`
+* The Datasets: Place the sample datasets in the `/datasets` folder. Example files:
+   - `Crash_data_LA_county.csv`
 
 * How to run the notebook or scripts:
    1. _Open Jupyter Notebook:_ Launch Jupyter Notebook in the cloned project directory by running the following command:
       ```bash
       jupyter notebook
       ```
-  2. _Run the notebook or Python scripts:_ Open the notebook (.ipynb) or Python scripts in Jupyter and run them in sequence. If you're using a Python script directly, you can run it from the command line like this:
+   2. _Run the notebook or Python scripts:_ Open the notebook (.ipynb) or Python scripts in Jupyter and run them in sequence. If you're using a Python script directly, you can run it from the command line like this:
      ```bash
      python model.py
      ```
