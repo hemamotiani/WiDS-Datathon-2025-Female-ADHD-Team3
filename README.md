@@ -4,12 +4,12 @@
 
 ### **👥 Team Members**
 
-| Team Members     | GitHub Handle      | Contribution                                                                 |
+| Team Members     | GitHub Handle      | Contribution                                                                |
 |------------------|--------------------|-----------------------------------------------------------------------------|
 | Bhavya Agarwal   | @bhavya632         | Model evaluation, README creation and documentation                         |
-| My Vo            | @<GitHub Handle>   | Model development and implementation, Model training using Random Forest Classifier |
+| My Vo            | @myvok             | Model development and implementation, Model training using Random Forest Classifier |
 | Jolie Liu        | @<GitHub Handle>   | Preprocessed training data and built the optimized model                    |
-| Hema Motiani     | @hemamotiani        | Created GitHub repository, assisted with testing data cleaning              |
+| Hema Motiani     | @hemamotiani       | Created GitHub repository, assisted with testing data cleaning              |
 
 
 ---
