@@ -114,7 +114,7 @@ As participants in the Break Through Tech AI Program, our team is leveraging thi
   - _Mixed data types:_ Had to preprocess both categorical and numerical data via one-hot encoding, scaling, and normalization.
   - _Handling missing values:_ Strategically dropped columns with excessive missing data while preserving essential information.
 
-**Visualizations:**
+**Visualizations of the Data:**
 
 * <img width="380" alt="Screenshot 2025-03-30 at 7 50 46 PM" src="https://github.com/user-attachments/assets/3c677990-c9eb-49e0-b451-96c19138d1e4" />
 * <img width="690" alt="Screenshot 2025-03-30 at 7 49 55 PM" src="https://github.com/user-attachments/assets/96244cee-01c4-4691-afac-e1c59534aac3" />
@@ -124,35 +124,36 @@ As participants in the Break Through Tech AI Program, our team is leveraging thi
 
 ## **🧠 Model Development**
 
-**Describe (as applicable):**
+* In this competition, our team applied machine learning techniques to classify ADHD patterns using brain imaging and socio-demographic data. We used a Random Forest Classifier for this multi-class classification problem, as it has shown robustness in handling a mix of categorical and numerical features. The model was designed to predict ADHD diagnosis while considering gender-based differences in brain development. Additionally, we developed and optimized a XGBoost model, which is known for its performance and efficiency in classification tasks. XGBoost was applied as an alternative to Random Forest due to its ability to handle imbalances in the dataset and improve prediction accuracy through boosting techniques.
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+* Training setup:
+  - _Data Split:_ We split the dataset into 80% training and 20% validation to ensure robust model performance. Cross-validation was also used to fine-tune the model's parameters and validate its generalization ability.
+  - _Evaluation Metric:_ We used the F1-score as our evaluation metric to balance precision and recall, ensuring that the model’s performance was measured for both accuracy and reliability, especially given the class imbalance in ADHD diagnoses.
+  - _Baseline Performance:_ The baseline performance was set with a simple logistic regression model to establish a starting point before experimenting with more complex models.
+
+
 
 ---
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
-
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+* Performance Metrics:
+   - F1-score: 0.69
+   - Kaggle Leaderboard Rank: #519
+   - The model showed promising performance in predicting ADHD patterns but there is room for further improvements in accuracy.
+ 
+* Key Findings:
+   - The Random Forest model showed the best balance between model complexity and performance, indicating that ensemble methods are effective in tackling this problem with mixed data types.
+   - The importance of socio-demographic data such as age, gender, and emotional history was evident in improving the model’s ability to predict ADHD more accurately, especially in females, who are often underdiagnosed.
 
 ---
 
 ## **🖼️ Impact Narrative**
 
-**Answer the relevant questions below based on your competition:**
-
-**WiDS challenge:**
-
 1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
+   - The model revealed notable brain connectivity differences between males and females diagnosed with ADHD, highlighting how male and female brains might develop differently in regions involved in attention and emotion regulation. Female ADHD patients often showed more subtle connectivity disruptions, which may contribute to the underdiagnosis of ADHD in women.
 2. How could your work help contribute to ADHD research and/or clinical care?
+   - By accurately predicting ADHD in both males and females using brain imaging and socio-demographic data, our model can aid in identifying at-risk individuals earlier. Early detection and personalized treatments based on sex-specific brain activity patterns could lead to more effective ADHD interventions, especially for females who often face challenges in receiving timely diagnoses and treatments.
 
 ---
 
@@ -161,8 +162,18 @@ As participants in the Break Through Tech AI Program, our team is leveraging thi
 **Address the following:**
 
 * What are some of the limitations of your model?
+  - _Data Quality:_ Some columns had excessive missing values, and although we dropped them, this could have potentially removed valuable information.
+  - _Complexity of Features:_ Some features, particularly from the fMRI data, were difficult to interpret, which may have impacted the model’s ability to make accurate predictions.
+
 * What would you do differently with more time/resources?
+  - _Feature Engineering:_ We would explore more advanced feature engineering techniques to capture additional insights from the fMRI data, potentially involving more complex transformations or additional data sources.
+  - _Deep Learning Models:_ With more time, we would experiment with deep learning models like Convolutional Neural Networks (CNNs), which could better capture the spatial relationships in brain connectivity data.
 * What additional datasets or techniques would you explore?
+  - _Time-series Data:_ Incorporating time related data to analyze how ADHD symptoms evolve over time would provide deeper insights.
+  - _Neuroimaging Modalities:_ Exploring additional neuroimaging techniques (e.g., EEG, PET scans) could offer a more holistic view of brain activity patterns.
+  - _Fairness and Explainability Tools:_ Implementing tools for model explainability (e.g., SHAP values) to better understand the decision-making process of the model and ensure fairness across different demographic groups.
+
+
 
 ---
 
